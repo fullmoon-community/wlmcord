@@ -50,7 +50,7 @@
 		"libsodium-wrappers": "^0.7.13",
 		"node-gyp": "^10.0.1",
 		"node-microphone": "^0.1.6",
-		"node-vibrant": "^3.1.6",
+		"node-vibrant": "^3.2.1-alpha.1",
 		"pngjs": "^7.0.0",
 		"public-ip": "^6.0.1",
 		"raji": "^0.1.6",
