@@ -1307,7 +1307,7 @@ function Home() {
 						/>
 						<ImageButton
 							onClick={() =>
-								window.open("https://discord.gg/nP9SxVQGnu", "_blank")
+								window.open("https://discord.gg/Upbs6CXRm4", "_blank")
 							}
 							type="discord"
 						/>
