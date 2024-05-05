@@ -1,9 +1,9 @@
 {
-	"name": "aerochat",
-	"version": "1.0.1-rc.6",
+	"name": "wlmcord",
+	"version": "1.0.1-test",
 	"description": "Windows Live Messenger (2009), but for Discord!",
 	"main": "./out/main/index.js",
-	"author": "Madeline, with special thanks to luisl and the Nostalgia '09 team",
+	"author": "Originally made by Madeline (nullptr), now maintained by Maple.",
 	"homepage": "https://www.electronjs.org",
 	"scripts": {
 		"format": "prettier --write .",
