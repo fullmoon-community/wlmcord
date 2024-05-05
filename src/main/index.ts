@@ -232,12 +232,12 @@ function createWindow(): void {
 
 	if (process.defaultApp) {
 		if (process.argv.length >= 2) {
-			app.setAsDefaultProtocolClient("aerochat", process.execPath, [
+			app.setAsDefaultProtocolClient("wlmcord", process.execPath, [
 				path.resolve(process.argv[1]),
 			]);
 		}
 	} else {
-		app.setAsDefaultProtocolClient("aerochat");
+		app.setAsDefaultProtocolClient("wlmcord");
 	}
 
 	main.enable(mainWindow.webContents);

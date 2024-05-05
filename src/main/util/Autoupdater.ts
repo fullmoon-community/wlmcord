@@ -7,12 +7,12 @@ import childProcess from "child_process";
 export class Autoupdater {
 	static async getLatestReleaseInfo() {
 		const tags = await fetch(
-			"https://api.github.com/repos/Nostalgia-09/AeroChat/tags",
+			"https://api.github.com/repos/fullmoon-community/wlmcord/tags",
 		);
 		const tagsJson = await tags.json();
 		const latestTag = tagsJson[0].name;
 		const release = await fetch(
-			`https://api.github.com/repos/Nostalgia-09/AeroChat/releases/tags/${latestTag}`,
+			`https://api.github.com/repos/fullmoon-community/wlmcord/releases/tags/${latestTag}`,
 		);
 		const releaseJson = await release.json();
 		const [version, description, url]: [string, string, string] = [
@@ -37,7 +37,7 @@ export class Autoupdater {
 			},
 		);
 		if (response !== 0) return;
-		const dir = join(app.getPath("temp"), "AeroChat", "Updates");
+		const dir = join(app.getPath("temp"), "WLMcord", "Updates");
 		await fs.mkdir(dir, { recursive: true });
 		const download = await (await fetch(url)).arrayBuffer();
 		const update = Buffer.from(download);

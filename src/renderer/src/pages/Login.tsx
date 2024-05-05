@@ -200,8 +200,8 @@ function Login(): JSX.Element {
 				</div> */}
 				{!confirmed && !clicked && (
 					<div className={styles.warning}>
-						By using AeroChat, you accept a small (but non-zero) risk that your
-						account may be banned. With this in mind, AeroChat has not had any
+						By using WLMcord, you accept a small (but non-zero) risk that your
+						account may be banned. With this in mind, WLMcord has not had any
 						users banned from Discord.
 					</div>
 				)}

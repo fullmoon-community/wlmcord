@@ -363,7 +363,7 @@ function Home() {
 										description: `Opens a DM with ${DiscordUtil.getUserById(id)
 											?.username}`,
 
-										program: `aerochat://dm/${id}`,
+										program: `wlmcord://dm/${id}`,
 										// iconPath: avatar || "",
 										iconIndex: 0,
 										title: user?.global_name || user?.username || "Unknown",
@@ -1090,7 +1090,7 @@ function Home() {
 							<ImageButton type="windows" />
 							<ImageButton
 								type="help"
-								onClick={() => window.open("https://aerochat.live", "_blank")}
+								onClick={() => window.open("https://wlmcord.fullmooncommunity.github.io", "_blank")}
 							/>
 						</div>
 					</div>
