@@ -304,7 +304,7 @@ function Home() {
 	useEffect(() => {
 		async function getNotifications() {
 			const res = await fetch(
-				`https://gist.github.com/not-nullptr/26108f2ac8fcb8a24965a148fcf17363/raw?bust=${Date.now()}`,
+				`https://gist.github.com/mapliee/95f0075b6580f6d2ef9d3eb1573fe2e9/raw?bust=${Date.now()}`,
 			);
 			const json = await res.json();
 			const seen = Object.values(
