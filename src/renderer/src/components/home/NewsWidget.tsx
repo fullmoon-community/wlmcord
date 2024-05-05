@@ -51,7 +51,7 @@ export default function NewsWidget() {
 	useEffect(() => {
 		const fetchNews = async () => {
 			const res = await fetch(
-				`https://gist.github.com/not-nullptr/62b1fdeb4533c905b8145bc076af108e/raw?bust=${Date.now()}`,
+				`https://gist.github.com/mapliee/0f49178984d1b163337d700cdcc10232/raw?bust=${Date.now()}`,
 			);
 			const json = await res.json();
 			setNews(json);
