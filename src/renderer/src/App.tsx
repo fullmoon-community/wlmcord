@@ -47,7 +47,7 @@ function Error() {
 			<h1>info</h1>
 			hi hello hi!! an error has occured which we can't recover from.
 			<br />
-			please contact me on discord <b>(notnullptr)</b> for assistance. to be
+			please contact me on discord <b>(emu8086)</b> for assistance. to be
 			extra helpful, follow the steps below:
 			<ol>
 				<li>
@@ -79,15 +79,15 @@ function Error() {
 				description="opens the discord app and displays my profile, so you can add me for assistance."
 				onClick={() => {
 					remote.shell.openExternal(
-						"https://discord.com/users/1053012491006910504",
+						"https://discord.com/users/1209407339409702953",
 					);
 				}}
 			/>
 			<CommandLink
 				title="join the discord server"
-				description="does the same as above, but instead joins the nostalgia '09 discord server for assistance."
+				description="does the same as above, but instead joins the fullmoon community discord server for assistance."
 				onClick={() =>
-					remote.shell.openExternal("https://discord.gg/nP9SxVQGnu")
+					remote.shell.openExternal("https://discord.gg/Upbs6CXRm4")
 				}
 			/>
 			<CommandLink

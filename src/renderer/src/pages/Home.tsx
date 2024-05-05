@@ -393,7 +393,7 @@ function Home() {
 									return {
 										type: "task",
 										description: `Opens ${guild?.properties?.properties?.name}`,
-										program: `aerochat://guild/${id}`,
+										program: `wlmcord://guild/${id}`,
 										// iconPath: icon || "",
 										iconIndex: 0,
 										title: guild?.properties?.properties?.name || "Unknown",
