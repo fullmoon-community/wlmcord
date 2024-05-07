@@ -45,13 +45,13 @@ function Error() {
 	return (
 		<div className="error">
 			<h1>info</h1>
-			hi hello hi!! an error has occured which we can't recover from.
+			An unrecoverable error has occurred.
 			<br />
-			please contact me on discord <b>(emu8086)</b> for assistance. to be
-			extra helpful, follow the steps below:
+			Please contact me on Discord <b>(emu8086)</b> for assistance. To be
+			more helpful, follow the steps below:
 			<ol>
 				<li>
-					open dev tools ( <kbd data-key="Control">ctrl</kbd> +{" "}
+					Open dev tools ( <kbd data-key="Control">ctrl</kbd> +{" "}
 					<kbd data-key="Shift">shift</kbd> + <kbd data-key="i">i</kbd> , or by
 					clicking{" "}
 					<a
@@ -69,14 +69,14 @@ function Error() {
 			<h1>actions</h1>
 			<CommandLink title="reload" onClick={window.location.reload} />
 			<CommandLink
-				title="open dev tools"
+				title="Open dev tools"
 				onClick={() => {
 					ipcRenderer.send("open-dev-tools");
 				}}
 			/>
 			<CommandLink
-				title="add me on discord"
-				description="opens the discord app and displays my profile, so you can add me for assistance."
+				title="Add me on Discord"
+				description="Opens the Discord app and displays my profile, so you can contact me for assistance."
 				onClick={() => {
 					remote.shell.openExternal(
 						"https://discord.com/users/1209407339409702953",
@@ -84,14 +84,14 @@ function Error() {
 				}}
 			/>
 			<CommandLink
-				title="join the discord server"
-				description="does the same as above, but instead joins the fullmoon community discord server for assistance."
+				title="Join the discord server"
+				description="Does the same as above, but instead joins the Fullmoon Community Discord server for assistance."
 				onClick={() =>
 					remote.shell.openExternal("https://discord.gg/Upbs6CXRm4")
 				}
 			/>
 			<CommandLink
-				title="exit"
+				title="Exit"
 				onClick={() => {
 					remote.app.quit();
 				}}
