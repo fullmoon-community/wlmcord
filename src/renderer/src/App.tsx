@@ -1,3 +1,4 @@
+import "./OOBE-pages/Welcome"
 import { Routes, Route, HashRouter } from "react-router-dom";
 import Login from "@renderer/pages/Login";
 import Home from "@renderer/pages/Home";

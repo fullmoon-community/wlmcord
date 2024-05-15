@@ -1090,7 +1090,7 @@ function Home() {
 							<ImageButton type="windows" />
 							<ImageButton
 								type="help"
-								onClick={() => window.open("https://wlmcord.fullmooncommunity.github.io", "_blank")}
+								onClick={() => window.open("https://wlmcord.fullmooncommunity.com", "_blank")}
 							/>
 						</div>
 					</div>

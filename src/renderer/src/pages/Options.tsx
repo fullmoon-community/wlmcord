@@ -27,6 +27,16 @@ export default function Options() {
 					<kbd data-key={key}>{value}</kbd>
 				))}
 			</div>
+			<h1>Credits</h1>
+			<div>
+				Maple - Main developer of WLMcord
+			</div>
+			<div>
+				nullptr - Developer of AeroChat, also wrote the codebase WLMcord is based off of.
+			</div>
+			<div>
+				QuinceTart10 - Linux builds
+			</div>
 		</div>
 	);
 }
