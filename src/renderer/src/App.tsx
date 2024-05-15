@@ -1,5 +1,5 @@
-import "./OOBE-pages/Welcome"
 import { Routes, Route, HashRouter } from "react-router-dom";
+import OOBE from "./OOBE"
 import Login from "@renderer/pages/Login";
 import Home from "@renderer/pages/Home";
 import { Context, getSceneFromColor, imageMap } from "@renderer/util";
@@ -256,7 +256,8 @@ function App(): JSX.Element {
 			<Context.Provider value={{ state: reactState, setState }}>
 				<HashRouter>
 					<Routes>
-						<Route path="/" element={<Login />} />
+						<Route path="/" element={<OOBE />} />
+						<Route path="/login" element={<Login />} />
 						<Route path="/home" element={<Home />} />
 						<Route path="/notification" element={<Notification />} />
 						<Route path="/context-menu" element={<ContextMenu />} />
