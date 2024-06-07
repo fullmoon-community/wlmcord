@@ -1,7 +1,0 @@
-node_modules
-dist
-out
-*.log*
-presence.json
-ready_supplemental.json
-ready.json

@@ -1,7 +1,0 @@
-rename from node_modules/@discordjs/opus/prebuild/node-v120-napi-v3-win32-x64-unknown-unknown/opus.lib
-rename to node_modules/@discordjs/opus/prebuild/electron-v25.9-napi-v3-win32-x64-unknown-unknown/opus.lib
-diff --git a/node_modules/@discordjs/opus/prebuild/node-v120-napi-v3-win32-x64-unknown-unknown/opus.node b/node_modules/@discordjs/opus/prebuild/electron-v25.9-napi-v3-win32-x64-unknown-unknown/opus.node
-similarity index 94%
-rename from node_modules/@discordjs/opus/prebuild/node-v120-napi-v3-win32-x64-unknown-unknown/opus.node
-rename to node_modules/@discordjs/opus/prebuild/electron-v25.9-napi-v3-win32-x64-unknown-unknown/opus.node
-index e161309..fc3f79c 100644
